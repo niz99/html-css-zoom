@@ -12,6 +12,10 @@
     color: white;
 }
 
+.c-green{
+    color: rgb(65, 193, 4);
+}
+
 /* Main */
 
 main{
@@ -33,6 +37,8 @@ main{
 footer{
     height: 100px;
     background-color: rgb(26, 26, 26);
+    display: flex;
+    justify-content: space-between;
 }
 
 .menu-left{
@@ -49,6 +55,25 @@ footer{
 }
 
 .icon-left i{
+    font-size: 25px;
+    padding-bottom: 5px;
+}
+
+.menu-center{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    /* flex-basis: 50%; */
+}
+
+.icon-center{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    align-items: center;
+}
+
+.icon-center i{
     font-size: 25px;
     padding-bottom: 5px;
 }
