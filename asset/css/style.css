@@ -20,7 +20,7 @@
 
 main{
     background-color: black;
-    height: calc(100vh - 100px);
+    height: calc(100vh - 70px);
 
 }
 
@@ -35,7 +35,7 @@ main{
 /* Footer */
 
 footer{
-    height: 100px;
+    height: 70px;
     background-color: rgb(26, 26, 26);
     display: flex;
     justify-content: space-between;
@@ -55,7 +55,7 @@ footer{
 }
 
 .icon-left i{
-    font-size: 25px;
+    font-size: 20px;
     padding-bottom: 5px;
 }
 
@@ -74,6 +74,18 @@ footer{
 }
 
 .icon-center i{
-    font-size: 25px;
+    font-size: 20px;
     padding-bottom: 5px;
+}
+
+.menu-right{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    background-color: rgb(57, 57, 57);
+}
+
+.menu-right span{
+    color: red;
+    padding: 0 15px;
 }
