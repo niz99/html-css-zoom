@@ -19,10 +19,11 @@
 body{
     background-color: black;
 }
+
 /* Header */
 
 header{
-    height: 30px;
+    height: 60px;
 }
 
 .menu-view{
@@ -47,17 +48,30 @@ header{
 
 main{
     background-color: black;
-    height: calc(100vh - 100px);
-
+    height: calc(100vh - 130px);
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: center;
+    flex-wrap: wrap;
+    overflow-y: auto;
 }
 
+.zoom-account img{
+    width: 100%;
+}
 
+.account-img{
+    position: relative;
+    margin: 0 2px;
+}
 
-
-
-
-
-
+.account-name{
+    background-color: #4a4a4a;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
 
 /* Footer */
 
