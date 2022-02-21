@@ -16,11 +16,38 @@
     color: rgb(65, 193, 4);
 }
 
+body{
+    background-color: black;
+}
+/* Header */
+
+header{
+    height: 30px;
+}
+
+.menu-view{
+    text-align: right;
+}
+
+.menu-view-left,
+.menu-view-right{
+    display: inline-block;
+    background-color: #4a4a4a;
+    border-radius: 5px;
+    padding: 0 5px;
+    margin-top: 5px;
+}
+
+.fa-grip,
+.fa-maximize{
+    margin: 5px;
+}
+
 /* Main */
 
 main{
     background-color: black;
-    height: calc(100vh - 70px);
+    height: calc(100vh - 100px);
 
 }
 
